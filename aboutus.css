@@ -1,0 +1,414 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    color:black;
+    text-align:center;
+}
+
+.navBar{
+    background-color:#FFF9E9;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:100%;
+}
+
+.logo{
+    height:5.3rem;
+    position:relative;
+    left:-0.5rem;
+    padding-top:0.3rem;
+    padding-bottom:0.3rem;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+}
+
+.options{
+    display:flex;
+    width:45vw;
+    justify-content:space-evenly;
+    position:relative;
+    top:1rem;
+}
+
+#whatsapp{
+    background-color:#ffc629;
+    height:2.8rem;
+    width:13rem;
+    border:none;
+    border-radius:1.5rem;
+}
+
+#whatsapp:hover{
+    opacity:0.7;
+}
+
+.wpicon{
+    font-size:1.5rem;
+    position:relative;
+    right:0.5rem;
+}
+
+span{
+    font-weight:600;
+    position:relative;
+    top:-0.2rem;
+    font-size:0.9rem;
+}
+
+#hamburgermenu{
+    background:none;
+    border:none;
+    display:none;
+}
+
+.option{
+    font-weight:400;
+    font-size:0.8rem;
+    width:4rem;
+    height:1.8rem;
+    text-decoration:none;
+}
+
+#home{
+    border-bottom: 0.2rem solid #ffc629;
+    font-weight:900;
+}
+
+.option:hover{
+    border-bottom: 0.2rem solid #ffc629;
+    opacity:0.7;
+}
+
+.ourStory{
+    display:flex;
+    justify-content:space-evenly;
+    background:linear-gradient(
+        to left,
+        #FFF9E9,
+        transparent
+    );
+    padding:1.5rem;
+}
+
+#mainStory{
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+#storyHead{
+    font-size:2.5rem;
+    font-weight:900;
+    text-align:start;
+    margin:1rem;
+}
+
+#storyMain{
+    text-align:start;
+}
+
+#cafeImage{
+    width:35%;
+}
+
+.whatWeSell{
+    display:flex;
+    padding:1.5rem;
+    justify-content:space-evenly;
+    background:linear-gradient(
+        to right,
+        #FFF9E9,
+        transparent
+    );
+}
+
+#salad{
+    width:30%;
+}
+#sell{
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+#sellHead{
+    font-size:2.5rem;
+    font-weight:900;
+    text-align:start;
+    margin:1rem;
+}
+
+#sellMain{
+    text-align:start;
+}
+
+@media (max-width:1100px) and (min-width:850px){
+    .logo{
+        height:4.3rem;
+    }
+    .option{
+        font-size:0.7rem;
+        width:2.8rem;
+        height:1.4rem;
+    }
+    #whatsapp{
+        height:2.4rem;
+        width:10.5rem;
+    }
+    .wpicon{
+        font-size:1.2rem;
+        position:relative;
+        left: -3px;
+    }
+    span{
+        font-size:0.7rem;
+    }
+    #cafeImage{
+        width:40%;
+    }
+    #storyHead{
+    font-size:1.7rem;
+    margin:0.5rem;
+    }
+    #storyMain{
+        font-size:0.6rem;
+    }
+    #sellHead{
+    font-size:1.7rem;
+    margin:0.5rem;
+    }
+    #sellMain{
+    font-size:0.6rem;
+    }
+    #salad{
+    width:33%;
+    }
+}
+
+@media (max-width:850px) and (min-width:600px){
+    .logo{
+        height:3.5rem;
+        position:relative;
+        left:0.4rem;
+    }
+    .option{
+        font-size:0.6rem;
+        width:2.5rem;
+        height:1.2rem;
+    }
+    #whatsapp{
+        height:2.2rem;
+        width:9.2rem;
+    }
+    .wpicon{
+        font-size:1.1rem;
+        position:relative;
+        left:-3px;
+    }
+    span{
+        font-size:0.6rem;
+    }
+    #cafeImage{
+        width:40%;
+    }
+    #storyHead{
+    font-size:1.3rem;
+    margin:0.3rem;
+    }
+    #storyMain{
+        font-size:0.4rem;
+    }
+    #sellHead{
+    font-size:1.3rem;
+    margin:0.3rem;
+    }
+    #sellMain{
+    font-size:0.4rem;
+    }
+    #salad{
+    width:33%;
+    }
+    .ourStory{
+        padding:1rem;
+    }
+    .whatWeSell{
+        padding:1rem;
+    }
+}
+
+@media (max-width:600px) and (min-width:400px){
+    .logo{
+        height:2.9rem;
+    }
+    .options{
+        display:none;
+    }
+    #whatsapp{
+        height:1.8rem;
+        width:8.5rem;
+    }
+    .wpicon{
+        font-size:0.9rem;
+        position:relative;
+        left:-1px;
+    }
+    span{
+        font-size:0.6rem;
+        position:relative;
+        top:-1px;
+    }
+    #hamburgermenu{
+        display:block;
+    }
+    #cafeImage{
+        width:100%;
+        margin-top:1rem;
+        margin-bottom:1rem;
+    }
+    #storyHead{
+    font-size:2rem;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    margin-top:0rem;;
+    margin-bottom:0rem;;
+    }
+    #storyMain{
+        font-size:0.8rem;
+        margin-top:0.3rem;
+        margin-bottom:0.3rem;
+    }
+    .whatWeSell{
+    display:flex;
+    padding:1rem;
+    flex-direction:column;
+    background:linear-gradient(
+        to top,
+        #FFF9E9,
+        transparent
+    );
+    }
+    #sell{
+        width:100%;
+    }
+    #sellHead{
+    font-size:2rem;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    margin-top:0rem;;
+    margin-bottom:0rem;;
+    }
+    #sellMain{
+    font-size:0.8rem;
+    margin-top:0.3rem;
+    margin-bottom:0.3rem;
+    }
+    #salad{
+    width:100%;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    }
+    .ourStory{
+    display:flex;
+    flex-direction:column-reverse;
+    background:linear-gradient(
+        to bottom,
+        #FFF9E9,
+        transparent
+    );
+    padding:1rem;
+    }
+    #mainStory{
+    width:100%;
+    }
+}
+
+@media (max-width:400px) and (min-width:350px){
+    .logo{
+        height:2.9rem;
+    }
+    .options{
+        display:none;
+    }
+    #whatsapp{
+        height:1.8rem;
+        width:8.5rem;
+    }
+    .wpicon{
+        font-size:0.9rem;
+        position:relative;
+        left:-1px;
+    }
+    span{
+        font-size:0.6rem;
+        position:relative;
+        top:-1px;
+    }
+    #hamburgermenu{
+        display:block;
+    }
+    #cafeImage{
+        width:100%;
+        margin-top:1rem;
+        margin-bottom:1rem;
+    }
+    #storyHead{
+    font-size:2rem;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    margin-top:0rem;;
+    margin-bottom:0rem;;
+    }
+    #storyMain{
+        font-size:0.7rem;
+        margin-top:0.3rem;
+        margin-bottom:0.3rem;
+    }
+    .whatWeSell{
+    display:flex;
+    padding:1rem;
+    flex-direction:column;
+    background:linear-gradient(
+        to top,
+        #FFF9E9,
+        transparent
+    );
+    }
+    #sell{
+        width:100%;
+    }
+    #sellHead{
+    font-size:2rem;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    margin-top:0rem;;
+    margin-bottom:0rem;;
+    }
+    #sellMain{
+    font-size:0.7rem;
+    margin-top:0.3rem;
+    margin-bottom:0.3rem;
+    }
+    #salad{
+    width:100%;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    }
+    .ourStory{
+    display:flex;
+    flex-direction:column-reverse;
+    background:linear-gradient(
+        to bottom,
+        #FFF9E9,
+        transparent
+    );
+    padding:1rem;
+    }
+    #mainStory{
+    width:100%;
+    }
+}

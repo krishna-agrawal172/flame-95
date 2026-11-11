@@ -1,0 +1,1703 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    color:black;
+    text-align:center;
+}
+
+.navBar{
+    background-color:#FFF9E9;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:100%;
+}
+
+.logo{
+    height:5.3rem;
+    position:relative;
+    left:-0.5rem;
+    padding-top:0.3rem;
+    padding-bottom:0.3rem;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+}
+
+.options{
+    display:flex;
+    width:45vw;
+    justify-content:space-evenly;
+    position:relative;
+    top:1rem;
+}
+
+#whatsapp{
+    background-color:#ffc629;
+    height:2.8rem;
+    width:13rem;
+    border:none;
+    border-radius:1.5rem;
+}
+
+#whatsapp:hover{
+    opacity:0.7;
+}
+
+.wpicon{
+    font-size:1.5rem;
+    position:relative;
+    right:0.5rem;
+}
+
+span{
+    font-weight:600;
+    position:relative;
+    top:-0.2rem;
+    font-size:0.9rem;
+}
+
+#hamburgermenu{
+    background:none;
+    border:none;
+    display:none;
+}
+
+.option{
+    font-weight:400;
+    font-size:0.8rem;
+    width:4rem;
+    height:1.8rem;
+    text-decoration:none;
+}
+
+
+
+#home{
+    border-bottom: 0.2rem solid #ffc629;
+    font-weight:900;
+}
+
+.option:hover{
+    border-bottom: 0.2rem solid #ffc629;
+    opacity:0.7;
+}
+
+
+
+
+
+
+
+
+
+
+.top{
+    background-color:#fff9e9;
+    display:flex;
+}
+
+.box{
+    width:50%;
+}
+
+.subbox{
+    display:flex;
+    flex-direction:column;
+    display:inline-block;
+    align-items:flex-start;
+    padding:20px;
+    position:relative;
+    left:-1rem;
+}
+
+#Good-Food{
+    width:22rem;
+    opacity:0.9;
+    position:relative;
+    left:-6.5rem;
+}
+
+#heading1{
+    font-size:3.8rem;
+    font-weight:700;
+    text-align:start;
+    position:relative;
+    top:-1.2rem;
+    white-space:nowrap;
+}
+
+#heading2{
+    font-size:4.6rem;
+    font-weight:700;
+    color:#ffc629;
+    text-align:start;
+    position:relative;
+    top:-3.7rem;
+} 
+
+#quote{
+    font-size:1.05rem;
+    color:#62666d;
+    text-align:start;
+    font-weight:500;
+    position:relative;
+    top:-3.7rem;
+}
+
+#wp{
+    height:3rem;
+    width:10rem;
+    border:none;
+    border-radius:1.5rem;
+    background-color:#ffc629;
+    position:relative;
+    top:-2.5rem;
+    left:-7rem;
+}
+
+#wp:hover{
+    opacity:0.7;
+}
+
+.icon{
+    font-size:1.5rem;
+    position:relative;
+    left:-0.5rem;
+}
+
+.arrow{
+    position:relative;
+    left:0.4rem;
+    font-size:1.3rem;
+}
+
+#menu{
+    height:3rem;
+    width:10rem;
+    border:none;
+    border-radius:1.5rem;
+    border:0.1rem solid #62666d;
+    background-color:#fff9e9;
+    position:relative;
+    top:-2.5rem;
+    left:-6rem;
+}
+
+#menu:hover{
+    opacity:0.7;
+}
+
+.shawarma{
+    width:50%;
+    background-image:url("shawarma2.png");
+    background-size:cover;
+    border-top-left-radius:10rem;
+    border-bottom-left-radius:10rem;
+    opacity:0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.subhero{
+    display:flex;
+    position:relative;
+    justify-content:space-evenly;
+}
+
+.line{
+    width:0.15rem;
+    background-color:#ffc629;
+    opacity:0.3;
+    background:
+    linear-gradient(
+        to bottom,
+        transparent -10%,
+        #ffc629 50%,
+        transparent
+    );
+}
+
+.middle{
+    background-color:#ffffff;
+    display:inline-block;
+    text-align:start;
+}
+
+
+#first{
+    display:flex;
+    flex-direction:column;
+    display:inline-block;
+    margin-left:5.2rem;
+    margin-top:1rem;
+}
+
+#best{
+    font-size:1.8rem;
+    font-weight:900;
+    text-align:start;
+}
+
+#sub-best{
+    color:#62666d;
+    font-size:1.1rem;
+    font-weight:500;
+}
+
+.Boxes{
+    padding:2rem;
+    display:flex;
+    margin-left:2.3rem;
+    margin-right:2.3rem;
+    justify-content:center;
+}
+
+
+.SmallBox{
+    height:12rem;
+    width:10rem;
+    margin-left:0.6rem;
+    margin-right:0.6rem;
+    border: 0.05rem solid rgba(98,102,109,0.5);
+    border-radius:1rem;
+}
+
+.image{
+    height:7.5rem;
+    width:10rem;
+    background-color:green;
+    border-top-left-radius:0.9rem;
+    border-top-right-radius:0.9rem;
+}
+
+#box1{
+    background-image:url("shawarma.jpeg");
+    background-size:cover;
+}
+
+#box2{
+    background-image:url("egg_fried_rice.png");
+    background-size:cover;
+}
+
+#box3{
+    background-image:url("kebab_paratha.jpeg");
+    background-size:cover;
+}
+
+#box4{
+    background-image:url("kebab.jpeg");
+    background-size:cover;
+}
+
+#box5{
+    background-image:url("shawarma_salad.jpeg");
+    background-size:cover;
+}
+
+.subSmallBox{
+    margin:0.5rem;
+}
+
+.imagebox{
+    display:flex;
+    flex-direction:column;
+    margin:1rem;
+}
+
+.subimage{
+    margin:1rem;
+    height:5.2rem;
+    width:5.2rem;
+    border-radius:50%;
+}
+
+#subone{
+    background-image:url("three.jpeg");
+    background-size:cover;
+    opacity:0.8;
+}
+#subtwo{
+    background-image:url("one.jpeg");
+    background-size:cover;
+    opacity:0.8;
+}
+#subthree{
+    background-image:url("two.jpeg");
+    background-size:cover;
+    opacity:0.8;
+}
+
+.aside{
+    display:flex;
+}
+
+.write{
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.three{
+    text-align:start;
+    display:flex;
+    flex-direction:column;
+}
+
+.two{
+    text-align:start;
+    margin-top:4rem;
+    margin-bottom:4rem;
+    display:flex;
+    flex-direction:column;
+}
+
+.one{
+    text-align:start;
+    margin-top:1.7rem;
+    margin-bottom:1.7rem;
+    display:flex;
+    flex-direction:column;
+}
+
+.tagline{
+    font-size:1.2rem;
+    font-weight:600;
+    display:inline-block;
+    text-align:start;
+    white-space:nowrap;
+}
+
+.subtagline{
+    color:#62666d;
+    display:inline-block;
+    text-align:start;
+    white-space:nowrap;
+}
+
+#menucard{
+    text-decoration:none;
+    position:absolute;
+    top:2.5rem;
+    left:55rem;
+    font-weight:600;
+}
+
+#menucard:hover{
+    opacity:0.5;
+}
+
+.menuarrow{
+    position:relative;
+    left:0.5rem;
+    font-size:0.8rem;
+}
+
+
+
+
+
+
+
+
+
+.aftermiddle{
+    background-color:#FFF9E9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.story{
+    width:42%;
+    text-align:start;
+    padding-top:1.5rem;
+    padding-bottom:1.5rem;
+    margin-right:1.2rem;
+    margin-left:1rem;
+    display:flex;
+    flex-direction:column;
+}
+
+#about{
+    color:#ffc629;
+    font-size:1.6rem;
+    font-weight:700;
+    text-align:start;
+}
+
+#storyhead{
+    text-align:start;
+    font-size:2.4rem;
+    font-weight:700;
+    white-space:nowrap;
+}
+
+#storymain{
+    display:inline-block;
+    text-align:start;
+    width:60%;
+    font-size:1.1rem;
+    color:#62666d;
+    font-weight:500;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+#learnmore{
+    background-color:#ffc629;
+    border:none;
+    height:2.5rem;
+    width:11rem;
+    border-radius:1.5rem;
+    font-size:0.9rem;
+    font-weight:600;
+    margin:0.5rem;
+}
+
+#learnmore:hover{
+    opacity:0.7;
+}
+
+.learnarrow{
+    position:relative;
+    left:0.8rem;
+    font-size:0.9rem;
+}
+
+
+#shopimg{
+    width:35%;
+    border-radius:3rem;
+    margin-left:1.2rem;
+    margin-right:1rem;
+}
+
+.reviewSection{
+    display:flex;
+    flex-direction:column;
+    margin:1rem;
+}
+
+.upper{
+    padding:2rem;
+    text-align:start;
+    margin-left:2.9rem;
+    margin-right:2.9rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.subupper{
+    display:inline-block;
+    text-align:start;
+}
+
+#reviewHead{
+    font-size:2.2rem;
+    font-weight:800;
+    display:inline-block;
+}
+
+#subReviewHead{
+    color:#62666d;
+    display:inline-block;
+    font-size:1.2rem;
+    font-weight:500;
+}
+
+#reviewLink{
+    height:3rem;
+    background-color:#ffc629;
+    border:none;
+    width:12rem;
+    border-radius:2rem;
+    font-size:1.3rem;
+    font-weight:700;
+}
+
+.realReview{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.subReview{
+    height:13rem;
+    width:28rem;
+    border-radius:1rem;
+    background-color:#FFF9E9;
+}
+
+.reviewimage{
+    height:5rem;
+    width:5rem;
+    border-radius:50%;
+    margin-top:1rem;
+    margin-left:2rem;
+    margin-bottom:1rem;
+    margin-right:2rem;
+}
+
+.reviewBox{
+    display:flex;
+    align-items:center;
+}
+
+#personName{
+    text-align:start;
+    font-size:1.2rem;
+    font-weight:500;
+}
+
+#review{
+    text-align:start;
+}
+
+.color{
+    color:#ffc629;
+}
+
+#writereview{
+    color:#62666d;
+    text-align:center;
+    font-size:1.1rem;
+}
+
+#image1{
+    background-image:url("laddu.jpeg");
+    background-size:cover;
+}
+
+#image2{
+    background-image:url("piyush.jpeg");
+    background-size:cover;
+}
+
+#image3{
+    background-image:url("saawan.jpeg");
+    background-size:cover;
+}
+
+footer{
+    background-color:black;
+    color:white;
+}
+
+.footerbox{
+    display:flex;
+    justify-content:space-evenly;
+    padding:1rem;
+}
+
+#footer1{
+    display:flex;
+    flex-direction:column;
+}
+
+.footericon{
+    display:flex;
+    gap:0.5rem;
+}
+
+#footer_image{
+    width:17rem;
+    opacity:0.85;
+}
+
+#footerwp{
+    font-size:2.5rem;
+    color:white;
+    opacity:0.8;
+    background:none;
+    border:none;
+}
+
+#rights{
+    color:rgba(255,255,255,0.8);
+    font-size:0.8rem;
+    text-align:start;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    margin-left:0.3rem;
+    margin-right:0.3rem;
+}
+
+#copyrighticon{
+    color:rgba(255,255,255,0.8);
+    margin:0.2rem;
+}
+
+#footer2{
+    display:flex;
+    flex-direction:column;
+}
+
+#footer3{
+    display:flex;
+    flex-direction:column;
+}
+
+#footerhead{
+    color:rgba(255,255,255,0.8);
+    font-weight:550;
+    font-size:1.2rem;
+    text-align:start;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+#footercontent{
+    color:rgba(255,255,255,0.8);
+    text-decoration:none;
+    text-align:start;
+    font-size:1.05rem;
+}
+
+#footercontent:hover{
+    opacity:0.7;
+}
+
+#num{
+    color:rgba(255,255,255,0.8);
+    text-decoration:none;
+    text-align:start;
+    font-size:1.05rem;
+    padding-top:0.25rem;
+    padding-bottom:0.25rem;
+}
+
+#numicon{
+    color:rgba(255,255,255,0.8);
+    font-size:1.3rem;
+    margin-right:0.5rem;
+}
+
+.timing{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+#open{
+    color:rgba(255,255,255,0.8);
+    font-size:1.05;
+    text-align:start;
+}
+
+#clock{
+    color:rgba(255,255,255,0.8);
+    font-size:2rem;
+}
+
+@media (max-width:1050px) and (min-width:850px){
+    .logo{
+        height:4.3rem;
+    }
+    .option{
+        font-size:0.7rem;
+        width:2.8rem;
+        height:1.4rem;
+    }
+    #whatsapp{
+        height:2.4rem;
+        width:10.5rem;
+    }
+    .wpicon{
+        font-size:1.2rem;
+        position:relative;
+        left: -3px;
+    }
+    span{
+        font-size:0.7rem;
+    }
+    .subbox{
+        position:relative;
+        left:0.1rem;
+    }
+    #Good-Food{
+        width:15rem;
+        position:relative;
+        left:-5rem;
+    }
+    #heading1{
+        font-size:2.62rem;
+    }
+    #heading2{
+        font-size:3.5rem;
+        top:-3.2rem;
+    }
+    #quote{
+        font-size:0.8rem;
+    }
+    #wp{
+        height:2.5rem;
+        width:8rem;
+        position:relative;
+        left:-3.8rem;
+    }
+    .icon{
+        font-size:1.2rem;
+    }
+    .arrow{
+        font-size:1rem;
+    }
+    #menu{
+        height:2.5rem;
+        width:8rem;
+        position:relative;
+        left:-2.8rem;
+    }
+    #first{
+        margin-left:1.4rem;
+    }
+    #best{
+    font-size:1.2rem;
+    }
+    #sub-best{
+        font-size:0.65rem;
+    }
+    .Boxes{
+    padding:0.7rem;
+    margin-left:0.4rem;
+    margin-right:0.4rem;
+    }
+    .SmallBox{
+    height:7.5rem;
+    width:6rem;
+    margin-left:0.3rem;
+    margin-right:0.3rem;
+    }
+    .imagebox{
+    margin:0.7rem;
+    }
+    .image{
+    height:5rem;
+    width:5.9rem;
+    border-top-left-radius:0.9rem;
+    border-top-right-radius:0.9rem;
+    }
+    .subimage{
+    margin:0.7rem;
+    height:3rem;
+    width:3rem;
+    }
+    .tagline{
+    font-size:0.85rem;
+    }
+    .subtagline{
+        font-size:0.6rem;
+    }
+    .two{
+    margin-top:0.7rem;
+    margin-bottom:0.7rem;
+    position:relative;
+    top:1.4rem;
+    }
+
+   .one{
+    margin-top:0.7rem;
+    margin-bottom:0.7rem;
+    }
+    .three{
+        margin-top:0.7rem;
+        margin-bottom:0.7rem;
+        position:relative;
+        top:3rem;
+    }
+    #menucard{
+        top:2rem;
+        left:29rem;
+        font-size:0.7rem;
+    }
+    #about{
+        font-size:1.1rem;
+    }
+    #storyhead{
+        font-size:1.5rem;
+    }
+    #storymain{
+        font-size:0.7rem;
+        width:85%;
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
+    }
+    #learnmore{
+        height:2rem;
+        width:9rem;
+        font-size:0.8rem;
+    }
+    .learnarrow{
+        font-size:0.8rem;
+        left:0.5rem;
+    }
+    .upper{
+    padding:1rem;
+    text-align:start;
+    margin-left:0rem;
+    margin-right:0rem;
+    }
+    #reviewLink{
+    height:2rem;
+    width:8rem;
+    border-radius:1rem;
+    font-size:0.9rem;
+    }
+    .subReview{
+    height:8rem;
+    width:16rem;
+    }
+    .reviewimage{
+    height:3rem;
+    width:3rem;
+    margin-top:0.75rem;
+    margin-left:1.5rem;
+    margin-bottom:0.75rem;
+    margin-right:1.5rem;
+    }
+    #personName{
+    font-size:0.9rem;
+    }
+    #review{
+    font-size:0.8rem;
+    }
+    #writereview{
+    font-size:0.75rem;
+    }
+    #reviewHead{
+    font-size:1.5rem;
+    }
+    #subReviewHead{
+    font-size:0.9rem;
+    }
+    #footer_image{
+    width:11rem;
+    }
+    #footerwp{
+    font-size:1.8rem;
+    }
+    #rights{
+        font-size:0.65rem;
+    }
+    #footerhead{
+        font-size:0.9rem;
+    }
+    #footercontent{
+        font-size:0.8rem;
+    }
+    #num{
+        font-size:0.8rem;
+    }
+    #numicon{
+        font-size:1.05rem;
+    }
+    #open{
+    font-size:0.8rem;
+    }
+    #clock{
+    font-size:1.5rem;
+    }
+    #nameFood{
+        font-size:0.55rem;
+    }
+    #price{
+        font-size:0.55rem;
+    }
+}
+
+@media (max-width:850px) and (min-width:600px){
+    .logo{
+        height:3.5rem;
+        position:relative;
+        left:0.4rem;
+    }
+    .option{
+        font-size:0.6rem;
+        width:2.5rem;
+        height:1.2rem;
+    }
+    #whatsapp{
+        height:2.2rem;
+        width:9.2rem;
+    }
+    .wpicon{
+        font-size:1.1rem;
+        position:relative;
+        left:-3px;
+    }
+    span{
+        font-size:0.6rem;
+    }
+    .subbox{
+        position:relative;
+        left:0.1rem;
+        padding:0.5rem;
+    }
+    #Good-Food{
+        width:12rem;
+        position:relative;
+        left:-3.3rem;
+    }
+    #heading1{
+        font-size:1.95rem;
+    }
+    #heading2{
+        font-size:2.6rem;
+        top:-2.6rem;
+    }
+    #quote{
+        font-size:0.6rem;
+        top:-2.9rem;
+    }
+    #wp{
+        height:1.8rem;
+        width:6rem;
+        position:relative;
+        left:-2.8rem;
+    }
+    .icon{
+        font-size:1rem;
+        left:-0.2rem;
+    }
+    .arrow{
+        font-size:0.7rem;
+        top:-0.1rem;
+        left:0.2rem;
+    }
+    #menu{
+        height:1.8rem;
+        width:6rem;
+        position:relative;
+        left:-2.4rem;
+    }
+    #first{
+        margin-left:-0.2rem;
+    }
+    #best{
+    font-size:1rem;
+    }
+    #sub-best{
+        font-size:0.5rem;
+    }
+    .Boxes{
+    padding:0.4rem;
+    margin-left:0rem;
+    margin-right:0rem;
+    }
+    .disappear{
+       display:none; 
+    }
+    .SmallBox{
+    height:6rem;
+    width:5rem;
+    margin-left:0.3rem;
+    margin-right:0.3rem;
+    }
+    .imagebox{
+    margin:0.7rem;
+    }
+    .image{
+    height:4rem;
+    width:5rem;
+    border-top-left-radius:0.9rem;
+    border-top-right-radius:0.9rem;
+    }
+    .subimage{
+    margin:0.4rem;
+    height:2.5rem;
+    width:2.5rem;
+    }
+    .tagline{
+    font-size:0.7rem;
+    }
+    .subtagline{
+        font-size:0.52rem;
+    }
+    .two{
+    margin-top:0.4rem;
+    margin-bottom:0.4rem;
+    position:relative;
+    top:1rem;
+    }
+
+   .one{
+    margin-top:0.4rem;
+    margin-bottom:0.4rem;
+    }
+    .three{
+        margin-top:0.4rem;
+        margin-bottom:0.4rem;
+        position:relative;
+        top:2.15rem;
+    }
+    #menucard{
+        left:19rem;
+        top:1.5rem;
+        font-size:0.5rem;
+    }
+    .menuarrow{
+    left:0.1rem;
+    font-size:0.6rem;
+    }
+    #about{
+        font-size:0.8rem;
+    }
+    .story{
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
+    }
+    #storyhead{
+        font-size:1.15rem;
+    }
+    #storymain{
+        font-size:0.55rem;
+        width:85%;
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
+    }
+    #learnmore{
+        height:1.7rem;
+        width:7rem;
+        font-size:0.6rem;
+    }
+    .learnarrow{
+        font-size:0.6rem;
+        left:0.5rem;
+    }
+    .upper{
+    padding:1rem;
+    text-align:start;
+    margin-left:0rem;
+    margin-right:0rem;
+    }
+    .realReview{
+        flex-wrap:wrap;
+        gap:20px;
+    }
+    #reviewLink{
+    height:2rem;
+    width:8rem;
+    border-radius:1rem;
+    font-size:0.9rem;
+    }
+    #reviewHead{
+    font-size:1.5rem;
+    }
+    #subReviewHead{
+    font-size:0.9rem;
+    }
+    .subReview{
+    height:8rem;
+    width:20rem;
+    }
+    .reviewimage{
+    height:3rem;
+    width:3rem;
+    margin-top:0.75rem;
+    margin-left:1.5rem;
+    margin-bottom:0.75rem;
+    margin-right:1.5rem;
+    }
+    #personName{
+    font-size:0.9rem;
+    }
+    #review{
+    font-size:0.8rem;
+    }
+    #writereview{
+    font-size:0.75rem;
+    }
+    #footer_image{
+    width:9rem;
+    }
+    #footerwp{
+    font-size:1.5rem;
+    }
+    #rights{
+        font-size:0.45rem;
+        margin-right:0;
+        margin-left:0;
+    }
+    #footerhead{
+        font-size:0.7rem;
+    }
+    #footercontent{
+        font-size:0.6rem;
+    }
+    #num{
+        font-size:0.6rem;
+    }
+    #numicon{
+        font-size:0.8rem;
+    }
+    #open{
+    font-size:0.6rem;
+    }
+    #clock{
+    font-size:1.2rem;
+    }
+    #nameFood{
+        font-size:0.45rem;
+    }
+    #price{
+        font-size:0.45rem;
+    }
+    .subSmallBox{
+    margin:0.3rem;
+    }
+}
+
+@media (max-width:600px) and (min-width:400px){
+    .logo{
+        height:2.9rem;
+    }
+    .options{
+        display:none;
+    }
+    #whatsapp{
+        height:1.8rem;
+        width:8.5rem;
+    }
+    .wpicon{
+        font-size:0.9rem;
+        position:relative;
+        left:-1px;
+    }
+    span{
+        font-size:0.6rem;
+        position:relative;
+        top:-1px;
+    }
+    #hamburgermenu{
+        display:block;
+    }
+    .subbox{
+        position:relative;
+        left:0.1rem;
+        padding:0.5rem;
+    }
+    #Good-Food{
+        width:8rem;
+        position:relative;
+        left:-1.7rem;
+    }
+    #heading1{
+        font-size:1.1rem;
+        top:-0.7rem;
+    }
+    #heading2{
+        font-size:1.5rem;
+        top:-1.5rem;
+    }
+    #quote{
+        font-size:0.5rem;
+        top:-1.7rem;
+    }
+    #wp{
+        height:1.4rem;
+        width:7rem;
+        left:-1rem;
+        top:-1.3rem;
+    }
+    .icon{
+        font-size:0.8rem;
+        left:-0.2rem;
+    }
+    .arrow{
+        font-size:0.6rem;
+        top:-0.1rem;
+        left:0.2rem;
+    }
+    #menu{
+        height:1.4rem;
+        width:7rem;
+        top:-1rem;
+        left:-1rem;
+    }
+    .subhero{
+        flex-direction:column;
+    }
+    .line{
+        width:100%;
+        height:0.15rem;
+        margin-top:0.3rem;
+    }
+    #first{
+        margin-left:0.6rem;
+    }
+    #best{
+    font-size:1rem;
+    }
+    #sub-best{
+        font-size:0.5rem;
+    }
+    .Boxes{
+    padding:0.4rem;
+    margin-left:0rem;
+    margin-right:0rem;
+    }
+    .disappear{
+       display:none; 
+    }
+    .SmallBox{
+    height:6rem;
+    width:5rem;
+    margin-left:0.3rem;
+    margin-right:0.3rem;
+    }
+    .aside{
+        justify-content:space-around;
+    }
+    .imagebox{
+    margin:0.5rem;
+    }
+    .image{
+    height:4rem;
+    width:5rem;
+    border-top-left-radius:0.9rem;
+    border-top-right-radius:0.9rem;
+    }
+    .subimage{
+    margin:0.4rem;
+    height:3.8rem;
+    width:3.8rem;
+    }
+    .tagline{
+    font-size:1.2rem;
+    }
+    .subtagline{
+        font-size:0.8rem;
+    }
+    .write{
+        width:14rem;
+    }
+    .two{
+    margin-top:0.4rem;
+    margin-bottom:0.4rem;
+    position:relative;
+    top:1.1rem;
+    }
+
+   .one{
+    margin-top:0.4rem;
+    margin-bottom:0.4rem;
+    }
+    .three{
+        margin-top:0.4rem;
+        margin-bottom:0.4rem;
+        position:relative;
+        top:2.3rem;
+    }
+    #menucard{
+        left:19rem;
+        top:1.5rem;
+        font-size:0.5rem;
+    }
+    .menuarrow{
+    left:0.1rem;
+    font-size:0.6rem;
+    }
+    .aftermiddle{
+        flex-direction:column;
+    }
+    #about{
+        font-size:1.1rem;
+    }
+    .story{
+        padding-top:1rem;
+        padding-bottom:1rem;
+        width:90%;
+    }
+    #storyhead{
+        font-size:1.55rem;
+    }
+    #storymain{
+        font-size:0.75rem;
+        width:85%;
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
+    }
+    #learnmore{
+        height:2.5rem;
+        width:11rem;
+        font-size:1rem;
+    }
+    .learnarrow{
+        font-size:1rem;
+        left:0.6rem;
+    }
+    #shopimg{
+        width:90%;
+        margin:1rem;
+    }
+    .upper{
+    padding:1rem;
+    text-align:start;
+    margin-left:0rem;
+    margin-right:0rem;
+    }
+    .realReview{
+        flex-wrap:wrap;
+        gap:20px;
+    }
+    #reviewLink{
+    height:2rem;
+    width:6rem;
+    border-radius:1rem;
+    font-size:0.7rem;
+    }
+    #reviewHead{
+    font-size:1rem;
+    }
+    #subReviewHead{
+    font-size:0.7rem;
+    }
+    .subReview{
+    height:8rem;
+    width:20rem;
+    }
+    .reviewimage{
+    height:3rem;
+    width:3rem;
+    margin-top:0.75rem;
+    margin-left:1.5rem;
+    margin-bottom:0.75rem;
+    margin-right:1.5rem;
+    }
+    #personName{
+    font-size:0.9rem;
+    }
+    #review{
+    font-size:0.8rem;
+    }
+    #writereview{
+    font-size:0.75rem;
+    }
+    #footer_image{
+    width:6rem;
+    }
+    #footerwp{
+    font-size:1rem;
+    }
+    #rights{
+        font-size:0.35rem;
+        margin-right:0;
+        margin-left:0;
+    }
+    #footerhead{
+        font-size:0.5rem;
+    }
+    #footercontent{
+        font-size:0.5rem;
+    }
+    #num{
+        font-size:0.4rem;
+        padding:0.1rem;
+    }
+    #numicon{
+        font-size:0.6rem;
+    }
+    #open{
+    font-size:0.4rem;
+    }
+    #clock{
+    font-size:1rem;
+    }
+    .timing{
+        gap:4PX;
+    }
+    #nameFood{
+        font-size:0.45rem;
+    }
+    #price{
+        font-size:0.45rem;
+    }
+    .subSmallBox{
+    margin:0.3rem;
+    }
+   
+}
+
+@media (max-width:400px) and (min-width:350px){
+    .logo{
+        height:2.9rem;
+    }
+    .options{
+        display:none;
+    }
+    #whatsapp{
+        height:1.8rem;
+        width:8.5rem;
+    }
+    .wpicon{
+        font-size:0.9rem;
+        position:relative;
+        left:-1px;
+    }
+    span{
+        font-size:0.6rem;
+        position:relative;
+        top:-1px;
+    }
+    #hamburgermenu{
+        display:block;
+    }
+    .subbox{
+        position:relative;
+        left:0.1rem;
+        padding:0.5rem;
+    }
+    #Good-Food{
+        width:8rem;
+        position:relative;
+        left:-1.3rem;
+    }
+    #heading1{
+        font-size:1.09rem;
+        top:-0.7rem;
+    }
+    #heading2{
+        font-size:1.5rem;
+        top:-1.5rem;
+    }
+    #quote{
+        font-size:0.5rem;
+        top:-1.7rem;
+    }
+    #wp{
+        height:1.4rem;
+        width:7rem;
+        left:-1rem;
+        top:-1.3rem;
+    }
+    .icon{
+        font-size:0.8rem;
+        left:-0.2rem;
+    }
+    .arrow{
+        font-size:0.6rem;
+        top:-0.1rem;
+        left:0.2rem;
+    }
+    #menu{
+        height:1.4rem;
+        width:7rem;
+        top:-1rem;
+        left:-1rem;
+    }
+    .subhero{
+        flex-direction:column;
+    }
+    .line{
+        width:100%;
+        height:0.15rem;
+        margin-top:0.3rem;
+    }
+    #first{
+        margin-left:0.6rem;
+    }
+    #best{
+    font-size:1rem;
+    }
+    #sub-best{
+        font-size:0.5rem;
+    }
+    .Boxes{
+    padding:0.4rem;
+    margin-left:0rem;
+    margin-right:0rem;
+    }
+    .disappear{
+       display:none; 
+    }
+    .SmallBox{
+    height:5.5rem;
+    width:4.5rem;
+    margin-left:0.3rem;
+    margin-right:0.3rem;
+    }
+    .aside{
+        justify-content:space-around;
+    }
+    .imagebox{
+    margin:0.5rem;
+    }
+    .image{
+    height:3.6rem;
+    width:4.5rem;
+    border-top-left-radius:0.9rem;
+    border-top-right-radius:0.9rem;
+    }
+    .subimage{
+    margin:0.4rem;
+    height:3.8rem;
+    width:3.8rem;
+    }
+    .tagline{
+    font-size:1.2rem;
+    }
+    .subtagline{
+        font-size:0.8rem;
+    }
+    .write{
+        width:14rem;
+    }
+    .two{
+    margin-top:0.4rem;
+    margin-bottom:0.4rem;
+    position:relative;
+    top:1.1rem;
+    }
+
+   .one{
+    margin-top:0.4rem;
+    margin-bottom:0.4rem;
+    }
+    .three{
+        margin-top:0.4rem;
+        margin-bottom:0.4rem;
+        position:relative;
+        top:2.3rem;
+    }
+    #menucard{
+        left:15.5rem;
+        top:1.5rem;
+        font-size:0.5rem;
+    }
+    .menuarrow{
+    left:0.1rem;
+    font-size:0.6rem;
+    }
+    .aftermiddle{
+        flex-direction:column;
+    }
+    #about{
+        font-size:0.95rem;
+    }
+    .story{
+        padding-top:1rem;
+        padding-bottom:1rem;
+        width:90%;
+    }
+    #storyhead{
+        font-size:1.38rem;
+    }
+    #storymain{
+        font-size:0.65rem;
+        width:85%;
+        padding-top:0.5rem;
+        padding-bottom:0.5rem;
+    }
+    #learnmore{
+        height:2.2rem;
+        width:9rem;
+        font-size:0.8rem;
+    }
+    .learnarrow{
+        font-size:0.8rem;
+        left:0.6rem;
+    }
+    #shopimg{
+        width:90%;
+        margin:1rem;
+    }
+    .upper{
+    padding:1rem;
+    text-align:start;
+    margin-left:0rem;
+    margin-right:0rem;
+    }
+    .realReview{
+        flex-wrap:wrap;
+        gap:20px;
+    }
+    #reviewLink{
+    height:1.5rem;
+    width:4.5rem;
+    border-radius:1rem;
+    font-size:0.6rem;
+    }
+    #reviewHead{
+    font-size:0.9rem;
+    }
+    #subReviewHead{
+    font-size:0.6rem;
+    }
+    .subReview{
+    height:8rem;
+    width:17rem;
+    }
+    .reviewimage{
+    height:3rem;
+    width:3rem;
+    margin-top:0.75rem;
+    margin-left:1.5rem;
+    margin-bottom:0.75rem;
+    margin-right:1.5rem;
+    }
+    #personName{
+    font-size:0.9rem;
+    }
+    #review{
+    font-size:0.8rem;
+    }
+    #writereview{
+    font-size:0.75rem;
+    }
+    #footer_image{
+    width:5rem;
+    }
+    #footerwp{
+    font-size:0.9rem;
+    }
+    #rights{
+        font-size:0.26rem;
+        margin-right:0;
+        margin-left:0;
+    }
+    #footerhead{
+        font-size:0.36rem;
+    }
+    #footercontent{
+        font-size:0.32rem;
+    }
+    #num{
+        font-size:0.32rem;
+        padding:0.1rem;
+    }
+    #numicon{
+        font-size:0.4rem;
+    }
+    #open{
+    font-size:0.32rem;
+    }
+    #clock{
+    font-size:0.85rem;
+    }
+    .timing{
+        gap:4PX;
+    }
+    #nameFood{
+        font-size:0.45rem;
+    }
+    #price{
+        font-size:0.45rem;
+    }
+    .subSmallBox{
+    margin:0.3rem;
+    }
+   
+}

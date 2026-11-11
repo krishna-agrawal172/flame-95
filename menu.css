@@ -1,0 +1,323 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+    color:black;
+    text-align:center;
+}
+
+.navBar{
+    background-color:#FFF9E9;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:100%;
+}
+
+.logo{
+    height:5.3rem;
+    position:relative;
+    left:-0.5rem;
+    padding-top:0.3rem;
+    padding-bottom:0.3rem;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+}
+
+.options{
+    display:flex;
+    width:45vw;
+    justify-content:space-evenly;
+    position:relative;
+    top:1rem;
+}
+
+#whatsapp{
+    background-color:#ffc629;
+    height:2.8rem;
+    width:13rem;
+    border:none;
+    border-radius:1.5rem;
+}
+
+#whatsapp:hover{
+    opacity:0.7;
+}
+
+.wpicon{
+    font-size:1.5rem;
+    position:relative;
+    right:0.5rem;
+}
+
+#text{
+    font-weight:600;
+    position:relative;
+    top:-0.2rem;
+    font-size:0.9rem;
+}
+
+#hamburgermenu{
+    background:none;
+    border:none;
+    display:none;
+}
+
+.option{
+    font-weight:400;
+    font-size:0.8rem;
+    width:4rem;
+    height:1.8rem;
+    text-decoration:none;
+}
+
+#home{
+    border-bottom: 0.2rem solid #ffc629;
+    font-weight:900;
+}
+
+.option:hover{
+    border-bottom: 0.2rem solid #ffc629;
+    opacity:0.7;
+}
+
+
+.Boxes{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background:linear-gradient(
+        to right,
+        #FFF9E9,
+        transparent,
+        #FFF9E9
+    );
+}
+
+
+.SmallBox{
+    height:34rem;
+    width:27rem;
+    margin:2rem;
+    border: 0.1rem solid rgba(98,102,109,0.5);
+    border-radius:1rem;
+    background-color:#fff9e9;
+}
+
+.image{
+    height:25rem;
+    width:26.8rem;
+    background-color:green;
+    border-top-left-radius:0.9rem;
+    border-top-right-radius:0.9rem;
+}
+
+#name{
+    color:#17191d;
+    font-size:2.5rem;
+    font-weight:700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:relative;
+    top:0.2rem;
+}
+#price{
+    color:#17191d;
+    font-size:3rem;
+    font-weight:700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:relative;
+    top:0.7rem;
+}
+.money{
+    font-size:2.5rem;
+    position:relative;
+    top:-0.07rem;
+}
+
+#box5{
+    background-image:url("veg_fried_rice.png");
+    background-size:cover;
+}
+#box3{
+    background-image:url("chicken_fried_rice.png");
+    background-size:cover;
+}
+
+@media (max-width:1100px) and (min-width:850px){
+    .logo{
+        height:4.3rem;
+    }
+    .option{
+        font-size:0.7rem;
+        width:2.8rem;
+        height:1.4rem;
+    }
+    #whatsapp{
+        height:2.4rem;
+        width:10.5rem;
+    }
+    .wpicon{
+        font-size:1.2rem;
+        position:relative;
+        left: -3px;
+    }
+    #text{
+        font-size:0.7rem;
+    }
+    .SmallBox{
+    height:26rem;
+    width:23rem;
+    margin:1rem;
+    }
+    .image{
+    height:19rem;
+    width:22.88rem;
+    }
+    #name{
+        font-size:2rem;
+    }
+    #price{
+        font-size:2.5rem;
+    }
+    .money{
+        font-size:2rem;
+    }
+}
+
+@media (max-width:850px) and (min-width:600px){
+    .logo{
+        height:3.5rem;
+        position:relative;
+        left:0.4rem;
+    }
+    .option{
+        font-size:0.6rem;
+        width:2.5rem;
+        height:1.2rem;
+    }
+    #whatsapp{
+        height:2.2rem;
+        width:9.2rem;
+    }
+    .wpicon{
+        font-size:1.1rem;
+        position:relative;
+        left:-3px;
+    }
+    #text{
+        font-size:0.6rem;
+    }
+    .SmallBox{
+    height:20rem;
+    width:16.5rem;
+    margin:1rem;
+    }
+    .image{
+    height:14rem;
+    width:16.4rem;
+    }
+    #name{
+        font-size:1.8rem;
+        top:0rem;
+    }
+    #price{
+        font-size:2rem;
+        top:0rem;
+    }
+    .money{
+        font-size:1.5rem;
+    }
+}
+
+@media (max-width:600px) and (min-width:400px){
+    .logo{
+        height:2.9rem;
+    }
+    .options{
+        display:none;
+    }
+    #whatsapp{
+        height:1.8rem;
+        width:8.5rem;
+    }
+    .wpicon{
+        font-size:0.9rem;
+        position:relative;
+        left:-1px;
+    }
+    #text{
+        font-size:0.6rem;
+        position:relative;
+        top:-1px;
+    }
+    #hamburgermenu{
+        display:block;
+    }
+    .SmallBox{
+    height:20rem;
+    width:16.5rem;
+    margin:1rem;
+    }
+    .image{
+    height:14rem;
+    width:16.4rem;
+    }
+    #name{
+        font-size:1.8rem;
+        top:0rem;
+    }
+    #price{
+        font-size:2rem;
+        top:0rem;
+    }
+    .money{
+        font-size:1.5rem;
+    }
+}
+
+@media (max-width:400px) and (min-width:350px){
+    .logo{
+        height:2.9rem;
+    }
+    .options{
+        display:none;
+    }
+    #whatsapp{
+        height:1.8rem;
+        width:8.5rem;
+    }
+    .wpicon{
+        font-size:0.9rem;
+        position:relative;
+        left:-1px;
+    }
+    #text{
+        font-size:0.6rem;
+        position:relative;
+        top:-1px;
+    }
+    #hamburgermenu{
+        display:block;
+    }
+    .SmallBox{
+    height:20rem;
+    width:16.5rem;
+    margin:1rem;
+    }
+    .image{
+    height:14rem;
+    width:16.4rem;
+    }
+    #name{
+        font-size:1.8rem;
+        top:0rem;
+    }
+    #price{
+        font-size:2rem;
+        top:0rem;
+    }
+    .money{
+        font-size:1.5rem;
+    }
+}
