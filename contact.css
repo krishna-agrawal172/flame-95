@@ -231,6 +231,19 @@ span{
     .options{
         display:none;
     }
+    .open{
+        display:flex;
+        flex-direction:column;
+        position:absolute;
+        right:0rem;
+        align-items:center;
+        top:3rem;
+        z-index: 1;
+        width:10rem;
+        background-color:#FFF9E9;
+        gap:10px;
+        padding:0.5rem;
+    }
     #whatsapp{
         height:1.8rem;
         width:8.5rem;
@@ -275,6 +288,19 @@ span{
     }
     .options{
         display:none;
+    }
+    .open{
+        display:flex;
+        flex-direction:column;
+        position:absolute;
+        right:0rem;
+        align-items:center;
+        top:3rem;
+        z-index: 1;
+        width:10rem;
+        background-color:#FFF9E9;
+        gap:10px;
+        padding:0.5rem;
     }
     #whatsapp{
         height:1.8rem;
