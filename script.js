@@ -6,7 +6,13 @@ book.addEventListener("click",() =>{
     link.target="_blank";
 
     link.click();
-})
+});
+
+let hamburger = document.querySelector("#hamburgermenu");
+let options = document.querySelector(".options");
+hamburger.addEventListener("click", ()=>{
+    options.classList.toggle("open");
+});
 
 let book2 = document.querySelector("#wp");
 book2.addEventListener("click",() => {
@@ -16,7 +22,7 @@ book2.addEventListener("click",() => {
     link.target="_blank";
 
     link.click();
-})
+});
 
 let menu = document.querySelector("#menu");
 menu.addEventListener("click",() => {
@@ -26,7 +32,7 @@ menu.addEventListener("click",() => {
     link.target="_blank";
 
     link.click();
-})
+});
 
 let learn = document.querySelector("#learnmore");
 learn.addEventListener("click",() =>{
@@ -36,7 +42,7 @@ learn.addEventListener("click",() =>{
     link.target = "_blank";
 
     link.click();
-})
+});
 
 let review = document.querySelector("#reviewLink");
 review.addEventListener("click",() =>{
@@ -46,7 +52,7 @@ review.addEventListener("click",() =>{
     link.target="_blank";
 
     link.click();
-})
+});
 
 let wp = document.querySelector(".towp");
 wp.addEventListener("click",() =>{
@@ -56,7 +62,7 @@ wp.addEventListener("click",() =>{
     link.target="_blank";
 
     link.click();
-})
+});
 
 let insta = document.querySelector(".toinst");
 insta.addEventListener("click",() =>{
@@ -66,4 +72,4 @@ insta.addEventListener("click",() =>{
     link.target="_blank";
 
     link.click();
-})
+});
